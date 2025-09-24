@@ -40,7 +40,6 @@ def plotSeries(
 
     if save_path:
         plt.savefig(save_path, bbox_inches="tight")
-        print(f"✅ Figur lagret til {save_path}")
 
     plt.show()
     return series
